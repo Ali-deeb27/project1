@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Movie Recommendations</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"><!--this is from google fonts -->
+    </head>
+    <body class="page9">
+        <header>
+            <a href="index.html" style="text-decoration: none;"><p>Movies 4 You</p></a>
+            <a href="index.html" class="pages" id="special">Home</a>
+            <a href="comedy.html" class="pages">Comedy</a>
+            <a href="horror.html" class="pages">Horror</a>
+            <a href="romance.html" class="pages">Romance</a>
+            <a href="kids.html" class="pages">Kids</a>
+            <a href="mystery.html" class="pages">Mystery</a>
+            <a href="contact.html" class="pages">Contact</a>
+            <img src="movie1.png">
+        </header>
+        <div class="main">
+            <div class="movieposter">
+               <a href="timetraveler.jpg"><img src="timetraveler.jpg"></a>
+                <div class="container">
+                    <div class="rate">
+                        <p>My Rating: <span>4/5</span></p>
+                        <p>Stars:</p>
+                        <img src="icons8-star-50.png"> <img src="icons8-star-50.png"> <img src="icons8-star-50.png"> <img src="icons8-star-50.png"> <img src="icons8-star-50 (1).png">
+                    </div>
+                    <hr>
+                    <div class="paragraph">
+                    <p>Henry, a librarian, possesses a unique gene that lets him involuntarily travel through time. His wife, Claire, finds it difficult to cope with it.</p>
+                    </div>
+                    <hr>
+                <div class="comment">
+                    <p>Labeled: Time Travel Romance</p>
+                    <p>Romance, Drama</p>
+                </div>
+            </div>
+        </div>
+        <div class="trailer">
+            <p>Watch Trailer:</p>
+            <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/3_8WZxHScMk?si=FgxCzJLVE5iGA5tT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+        </div>
+        <div class="container2">
+            <p>Rate The Movie</p>
+            <div class="star-widget">
+                <input type="radio" name="rate" id="rate-5">
+                <label for="rate-5">&#9733;</label>
+                <input type="radio" name="rate" id="rate-4">
+                <label for="rate-4">&#9733;</label>
+                <input type="radio" name="rate" id="rate-3">
+                <label for="rate-3">&#9733;</label>
+                <input type="radio" name="rate" id="rate-2">
+                <label for="rate-2">&#9733;</label>
+                <input type="radio" name="rate" id="rate-1">
+                <label for="rate-1">&#9733;</label>
+            </div>
+            <form method="get">
+                <div id="rating-paragraph"></div>
+                <textarea cols="30" placeholder="Write your feedback..."></textarea>
+                <button type="submit">Post</button>
+        </form>
+        </div>
+        <footer>
+            <div class="foot">
+            <p><a href="contact.html"><b><small>Contact us for more information</small></b></a></p>
+            <p><b><small>Copyright &copy; Movies 4 You</small></b></p>
+            </div>
+            <p><b><small>Cinema is the most beautiful fraud in the world</small></b></p>
+            <div class="socials">
+            <a href="https://www.instagram.com/alideeb27"><img src="instagram-brands-solid.svg" alt="instagram"></a>
+            <a href="https://www.google.com/search?q=movies+for+you"><img src="google-brands-solid.svg"></a>
+            <a href="https://www.imdb.com"><img src="imdb-brands-solid.svg"></a>
+        </div>
+    </footer>
+    <script src="interaction1.js"></script>
+    </body>
+</html>

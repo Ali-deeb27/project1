@@ -1,0 +1,1173 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',sans-serif;
+}
+.page1{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(netflix.jpg);
+    background-size: contain;
+}
+header{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    z-index: 1000;
+}
+header img{
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+    margin-left: 90px;
+}
+.page1 header{
+    background-color: rgb(245, 230, 200);
+}
+header p{
+    font-size: 27px;
+    font-weight: bolder;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.page1 header p{
+    color: cadetblue;
+}
+.pages{
+    font-size: 20px;
+    padding-top: 13px;
+    text-decoration: none;
+    margin-left: 50px;
+    font-weight: bolder;
+}
+#special{
+    margin-left: 100px;
+}
+.page1 .pages{
+    color: cadetblue;
+}
+.page1 .pages:hover{
+    color: black;
+    transition: color 0.5s;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.main{
+    height: 100%;
+}
+.mainheader{
+    color: blanchedalmond;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.881);
+    text-align: center;
+    margin-top: 120px;
+    font-size: 50px;
+    letter-spacing: 1px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(0, 0, 0, 0.3));
+    line-height: 1.2em;
+}
+.group1{
+    display: flex;
+    flex-direction: row;
+    background:linear-gradient(to left,rgba(69, 68, 68, 0.5) 50%,darkseagreen);
+    margin-top: 70px;
+}
+.firstparagraph{
+    width: 290px;
+    font-size: 24px;
+    background: linear-gradient(45deg,rgb(25, 86, 80),rgb(140, 140, 128),black);
+    margin-left: 100px;
+    margin-top: 90px;
+    padding: 30px;
+    color: darkseagreen;
+    border: 3px solid beige;
+    border-radius: 80px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+.firstparagraph:hover{
+    transform: scale(1.2);
+    transition: transform 1s ease;
+}
+.secondparagraph{
+    color: white;
+    font-size: 20px;
+    width: 500px;
+    margin-top: 120px;
+    margin-left: 80px;
+    font-weight: 700;
+}
+.group1 img{
+    height: 120px;
+    width: 120px;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+.group2{
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(to right,rgba(255, 165, 0,0.177) 50%,rgb(250, 250, 146)) ;
+    margin-top: 40px;
+}
+.group2 a{
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+.group2 .firstparagraph{
+    background: linear-gradient(45deg,rgb(214, 214, 122) 40%,rgb(244, 166, 22));
+    border-color: beige;
+    width: 300px;
+    margin-bottom: 80px;
+    animation-name: slideLeft;
+}		
+.group2 .firstparagraph a{
+    color: rgb(214, 91, 3);
+}
+.group2 span{
+    color:rgb(48, 148, 48);
+}
+.group2 .firstparagraph:hover{
+    background-color: darkkhaki;
+    border-color: brown;
+}
+.group2 .firstparagraph a:hover{
+    color: brown;
+}
+.group2 .firstparagraph img{
+    height: 40px;
+    width: 40px;
+    margin-left: 40px;
+    float: right;
+}
+.group3{
+    display: flex;
+    flex-direction: row;
+    background:linear-gradient(to left,rgba(0, 0, 0,0.4) 50%,white);
+    margin-top: 40px;
+}
+.group3 a{
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+.group3 .firstparagraph{
+    background: linear-gradient(45deg,rgb(77, 77, 77) 30%,rgb(214, 214, 192),rgb(108, 108, 108));
+    margin-bottom: 80px;
+}
+.group3 .firstparagraph a{
+    color: rgb(44, 43, 43);
+}
+.group3 span{
+    color: rgb(70, 132, 70);
+}
+.group3 .firstparagraph:hover{
+    background-color: rgb(98, 98, 98);
+    border-color: rgb(128, 33, 33);
+}
+.group3 .firstparagraph a:hover{
+    color: rgb(128, 33, 33);
+}
+.group3 .firstparagraph img{
+    height: 45px;
+    width: 45px;
+    margin-right: 30px;
+    float: right;
+    border-radius: 50px;
+}
+.secondpic{
+    height: 120px;
+    width: 120px;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+.group4{
+    display: flex;
+    flex-direction: row;
+    background:linear-gradient(to right,rgba(189, 71, 239, 0.2) 50%,pink);
+    margin-top: 40px;
+}
+.group4 a{
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+.group4 .firstparagraph{
+    background: linear-gradient(45deg,rgb(188, 141, 149),rgb(104, 1, 104));
+    border-color: pink;
+    margin-bottom: 80px;
+}
+.group4 .firstparagraph a{
+    color: rgb(248, 152, 169);;
+}
+.group4 span{
+    color: rgb(252, 130, 252);
+}
+.group4 .firstparagraph:hover{
+    background-color: peachpuff;
+    border-color: purple;
+}
+.group4 .firstparagraph a:hover{
+    color: rgb(225, 97, 225);
+}
+.group5{
+    display: flex;
+    flex-direction: row;
+    background:linear-gradient(to left,rgba(173, 216, 230,0.2) 50%, rgb(149, 92, 201));
+    margin-top: 40px;
+}
+.group5 a{
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+.group5 .firstparagraph{
+    background: linear-gradient(180deg,lightblue,pink);
+    border-color: beige;
+    margin-bottom: 80px;
+}
+.group5 .firstparagraph a{
+    color: rgb(235, 68, 96);
+}
+.group5 span{
+    color: rgb(14, 170, 222);
+}
+.group5 .firstparagraph:hover{
+    background-color: rgb(220, 220, 155);
+    border-color: yellow;
+}
+.group5 .firstparagraph a:hover{
+    color:rgb(241, 146, 111) ;
+}
+.group5 img{
+    height: 300px;
+    width: 250px;
+}
+.group6{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    margin-top: 40px;
+    background:linear-gradient(to right,rgba(210, 105, 30,0.2) 50%,rgb(132, 102, 41));
+}
+.group6 a{
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+.group6 .firstparagraph{
+    background: linear-gradient(90deg,chocolate,black);
+    border-color: beige;
+}
+.group6 .firstparagraph a{
+    color: orange;
+}
+.group6 span{
+    color: moccasin;
+}
+.group6 .firstparagraph:hover{
+    border-color: black;
+}
+.group6 .firstparagraph a:hover{
+    color: black;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    background-color: rgb(245, 230, 200);
+    padding-left: 40px;
+    color: rgb(99,99,99);
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+}
+.foot a{
+    color: rgb(99,99,99);
+}
+.foot a:hover{
+    text-decoration: none;
+}
+footer img{
+    height: 30px;
+    width: 40px;
+}
+.socials{
+    margin-right: 60px;
+    display: flex;
+    flex-direction: row;
+}
+.socials a{
+    margin-left: 30px;
+}
+.page2{
+    display: flex;
+    flex-direction: column;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(250, 250, 158, 0.8)),url(netflix.jpg) ;
+    background-size: contain;
+}
+.page2 header{
+    background:linear-gradient(90deg,rgb(247, 247, 165) 40%,beige,rgb(237, 191, 105));
+}
+.page2 header p{
+    color: rgb(244, 105, 6);
+}
+.page2 .pages{
+    color: rgb(244, 105, 6);
+}
+.page2 .pages:hover{
+    color: rgb(155, 40, 40);
+    transition: color 0.5s;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.comedymovies{
+    display: flex;
+    flex-direction: row;
+    margin-top: 130px;
+    margin-left: 40px;
+    box-sizing: border-box;
+}
+.comedymovies:nth-child(2n){
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+.comedymovies a{
+    display: inline-block;
+    margin-left: 100px;
+}
+.comedymovies img{
+    height: 360px;
+    width: 250px;
+    display: block;
+    transition: transform 0.3s ease, opacity 0.5s ease;
+    border: 5px solid;
+    border-image: linear-gradient(90deg,rgb(254, 254, 157),rgb(237, 185, 87)) 1;
+}
+.comedymovies img:hover{
+    transform: scale(1.1);
+    opacity: 0.6;
+}
+.page2 footer{
+    background: linear-gradient(90deg,rgb(254,254,157) 40%,beige,rgb(237,185,87));
+}
+.page3{
+    display: flex;
+    flex-direction: column;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(255, 255, 255, 0.8)),url(netflix.jpg) ;
+    background-size: contain;
+}
+.page3 header{
+    background: linear-gradient(45deg,black,white);
+}
+.page3 header p{
+    color: rgb(251, 249, 249);
+}
+.page3 .pages{
+    color: rgb(32, 32, 32);
+}
+.page3 .pages:hover{
+    color: rgb(76, 155, 40);
+    transition: color 0.5s;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.horrormovies{
+    display: flex;
+    flex-direction: row;
+    margin-top: 130px;
+    margin-left: 40px;
+    box-sizing: border-box;
+}
+.horrormovies:nth-child(2n){
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+.horrormovies a{
+    display: inline-block;
+    margin-left: 100px;
+}
+.horrormovies img{
+    height: 360px;
+    width: 250px;
+    display: block;
+    transition: transform 0.3s ease, opacity 0.5s ease;
+    border: 5px solid;
+    border-image: linear-gradient(90deg,rgb(39, 38, 38),white,beige) 1;
+}
+.horrormovies img:hover{
+    transform: scale(1.1);
+    opacity: 0.6;
+}
+.page3 footer{
+    background: linear-gradient(45deg,grey,white,beige);
+}
+.page4{
+    display: flex;
+    flex-direction: column;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(237, 131, 149, 0.8)),url(netflix.jpg) ;
+    background-size: contain;
+}
+.page4 header{
+    background: linear-gradient(45deg,pink,beige,purple);
+}
+.page4 header p{
+    color: rgb(144, 16, 169);
+}
+.page4 .pages{
+    color: rgb(32, 32, 32);
+}
+.page4 .pages:hover{
+    color: rgb(248, 145, 220);
+    transition: color 0.5s;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.romancemovies{
+    display: flex;
+    flex-direction: row;
+    margin-top: 130px;
+    margin-left: 40px;
+    box-sizing: border-box;
+}
+.romancemovies:nth-child(2n){
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+.romancemovies a{
+    display: inline-block;
+    margin-left: 100px;
+}
+.romancemovies img{
+    height: 360px;
+    width: 250px;
+    display: block;
+    transition: transform 0.3s ease, opacity 0.5s ease;
+    border: 5px solid;
+    border-image: linear-gradient(90deg,rgb(249, 128, 148),beige,purple) 1;
+}
+.romancemovies img:hover{
+    transform: scale(1.1);
+    opacity: 0.6;
+}
+.page4 footer{
+    background: linear-gradient(45deg,rgb(249,128,148),beige,purple);
+}
+.page5{
+    display: flex;
+    flex-direction: column;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(115, 201, 229, 0.8)),url(netflix.jpg) ;
+    background-size: contain;
+}
+.page5 header{
+    background: linear-gradient(45deg,lightblue 40%,rgb(255, 155, 171));
+}
+.page5 header p{
+    color: rgb(235, 68, 96);
+}
+.page5 .pages{
+    color: rgb(253, 108, 132);
+}
+.page5 .pages:hover{
+    color: rgb(255, 255, 131);
+    transition: color 0.5s;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.kidsmovies{
+    display: flex;
+    flex-direction: row;
+    margin-top: 130px;
+    margin-left: 40px;
+    box-sizing: border-box;
+}
+.kidsmovies:nth-child(2n){
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+.kidsmovies a{
+    display: inline-block;
+    margin-left: 100px;
+}
+.kidsmovies img{
+    height: 360px;
+    width: 250px;
+    display: block;
+    transition: transform 0.3s ease, opacity 0.5s ease;
+    border: 5px solid;
+    border-image: linear-gradient(90deg,lightblue,beige,rgb(255, 155, 171)) 1;
+}
+.kidsmovies img:hover{
+    transform: scale(1.1);
+    opacity: 0.6;
+}
+.page5 footer{
+    background: linear-gradient(45deg, lightblue,beige,rgb(255,155,171));
+}
+.page6{
+    display: flex;
+    flex-direction: column;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(207, 140, 8, 0.8)),url(netflix.jpg) ;
+    background-size: contain;
+}
+.page6 header{
+    background: linear-gradient(45deg,black,beige,rgb(224, 129, 61));
+}
+.page6 header p{
+    color: rgb(246, 118, 20);
+}
+.page6 .pages{
+    color: rgb(0, 0, 0);
+}
+.page6 .pages:hover{
+    color: rgb(216, 114, 18);
+    transition: color 0.5s;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.thrillermovies{
+    display: flex;
+    flex-direction: row;
+    margin-top: 130px;
+    margin-left: 40px;
+    box-sizing: border-box;
+}
+.thrillermovies:nth-child(2n){
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+.thrillermovies a{
+    display: inline-block;
+    margin-left: 100px;
+}
+.thrillermovies img{
+    height: 360px;
+    width: 250px;
+    display: block;
+    transition: transform 0.3s ease, opacity 0.5s ease;
+    border: 5px solid;
+    border-image: linear-gradient(45deg,black,beige) 1;
+}
+.thrillermovies img:hover{
+    transform: scale(1.1);
+    opacity: 0.6;
+}
+.page6 footer{
+    background: linear-gradient(45deg,black,beige,rgb(224,129,61));
+}
+.page7{
+    display: flex;
+    flex-direction: column;
+}
+.page7 .main{
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0, 0, 0, 0.8)),url(netflix.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+    margin-top: 60px;
+}
+.page7 header{
+    background: linear-gradient(90deg,rgb(247, 247, 165) 40%,beige,rgb(237, 191, 105));
+}
+.page7 header p{
+    color: rgb(244, 105, 6);
+}
+.page7 .pages{
+    color: rgb(244, 105, 6);
+}
+.page7 .pages:hover{
+    color: rgb(155, 40, 40);
+    transition: color 0.5s;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.movieposter{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-left: 140px;
+    margin-bottom: 50px;
+}
+.movieposter img{
+    height: 370px;
+    width: 260px;
+    border: 5px solid;
+}
+.page7 .movieposter img{
+    border-image: linear-gradient(90deg,rgb(254, 254, 157),rgb(237, 185, 87)) 1;
+}
+.container{
+    display: flex;
+    flex-direction: column; 
+    height: 379px;
+    width: 65%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.6));
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.rate{
+    display: flex;
+    flex-direction: row;
+}
+.rate p{
+    font-weight: bold;
+    font-size: 20px;
+    background: linear-gradient(90deg,rgb(255, 85, 0),rgb(250, 250, 108));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.rate span{
+    color: white;
+    background: none;
+    background-clip: initial;
+    -webkit-text-fill-color: initial;
+}
+    
+.rate img{
+    border: none;
+    height: 20px;
+    width: 20px;
+    margin-top: 23px;
+    margin-left: 10px;
+}
+.rate p:nth-of-type(2){
+    margin-left: 300px;
+}
+hr{
+    margin-top: 20px;
+    height: 3px;
+    border-color: black;
+}
+.paragraph p{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 70px;
+    color: beige;
+    font-weight: bold;
+}
+hr:nth-of-type(2){
+    margin-top: 80px;
+    background: none;
+}
+.comment{
+    display: flex;
+    flex-direction: row;
+}
+.comment p{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(155, 154, 154);
+    margin-left: 55px;
+    margin-top: 30px;
+}
+.comment p:nth-of-type(2){
+    margin-left: 200px;
+}
+.trailer{
+    margin-left: 280px;
+    margin-bottom: 100px;
+}
+.trailer p{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.trailer iframe{
+    height: 380px;
+    width: 700px;
+    border: 3px solid white;
+}
+.page7 footer{
+    background: linear-gradient(90deg,rgb(247, 247, 165) 40%,beige,rgb(237, 191, 105));
+}
+.page8{
+    display: flex;
+    flex-direction: column;
+}
+.page8 .main{
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0, 0, 0, 0.8)),url(netflix.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+    margin-top: 60px;
+}
+.page8 header{
+    background: linear-gradient(45deg,black,white);
+}
+.page8 header p{
+    color: rgb(251, 249, 249);
+}
+.page8 .pages{
+    color: rgb(32, 32, 32);
+}
+.page8 .pages:hover{
+    color: rgb(76, 155, 40);
+    transition: color 0.5s;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.page8 .movieposter img{
+    border-image: linear-gradient(90deg,rgb(39, 38, 38),white,beige) 1;
+}
+.page8 .rate p{
+    background: linear-gradient(90deg,grey,white);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.page8 footer{
+    background: linear-gradient(90deg,grey,white,beige);
+}
+.page9{
+    display: flex;
+    flex-direction: column;
+}
+.page9 .main{
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0, 0.8)),url(netflix.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+    margin-top: 60px;
+}
+.page9 header{
+    background: linear-gradient(45deg,pink,beige,purple);
+}
+.page9 header p{
+    color: rgb(144, 16, 169);
+}
+.page9 .pages{
+    color: rgb(32, 32, 32);
+}
+.page9 .pages:hover{
+    color: rgb(248, 145, 220);
+    transition: color 0.5s;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.page9 .movieposter img{
+    border-image: linear-gradient(90deg,rgb(249, 128, 148),beige,purple) 1;
+}
+.page9 .rate p{
+    background: linear-gradient(90deg,pink,purple);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.page9 footer{
+    background: linear-gradient(45deg,rgb(249,128,148),beige,purple);
+}
+.page10{
+    display: flex;
+    flex-direction: column;
+}
+.page10 .main{
+    background:linear-gradient(rgba(0,0,0, 0.8),rgba(0,0,0, 0.8)),url(netflix.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+    margin-top: 60px;
+}
+.page10 header{
+    background: linear-gradient(45deg,lightblue 40%,rgb(255, 155, 171));;
+}
+.page10 header p{
+    color: rgb(235, 68, 96);
+}
+.page10 .pages{
+    color: rgb(253, 108, 132);
+}
+.page10 .pages:hover{
+    color: rgb(255, 255, 131);
+    transition: color 0.5s;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.page10 .movieposter img{
+    border-image: linear-gradient(90deg,lightblue,beige,rgb(255, 155, 171)) 1;
+}
+.page10 .rate p{
+    background: linear-gradient(90deg,lightblue,rgb(255,155,171));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.page10 footer{
+    background: linear-gradient(45deg, lightblue,beige,rgb(255,155,171));;
+}
+.page11{
+    display: flex;
+    flex-direction: column;
+}
+.page11 .main{
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0, 0.8)),url(netflix.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+    margin-top: 60px;
+}
+.page11 header{
+    background:linear-gradient(45deg,black,beige,rgb(224, 129, 61));;
+}
+.page11 header p{
+    color: rgb(246, 118, 20);
+}
+.page11 .pages{
+    color: black;
+}
+.page11 .pages:hover{
+    color: rgb(216, 114, 18);
+    transition: color 0.5s;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.page11 .movieposter img{
+    border-image: linear-gradient(45deg,black,beige) 1;
+}
+.page11 .rate p{
+    background: linear-gradient(90deg,grey,beige,chocolate);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.page11 footer{
+    background: linear-gradient(45deg,black,beige,rgb(224,129,61));
+}
+.page12{
+    display: flex;
+    flex-direction: column;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(30, 29, 29, 0.8)),url(netflix.jpg);background-repeat: no-repeat;
+    background-size: cover;
+}
+.page12 header{
+    background-color:rgb(245, 230, 200);
+}
+.page12 header p{
+    color: cadetblue;
+}
+.page12 .pages{
+    color: cadetblue;
+}
+.page12 .pages:hover{
+    color: black;
+    transition: color 0.5s;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.page12 .main{
+    height: 100%;
+}
+.page12 .main h1{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 45px;
+    color: rgb(245, 230, 200);
+}
+.page12 form{
+    display: flex;
+    flex-direction: row;
+    margin-left: 190px;
+    width: 900px;
+    border-color: cadetblue;
+    background-color: rgba(95, 158, 160,0.85);
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+h2{
+    font-size: 30px;
+    color: rgb(245, 230, 200);
+}
+.icons p{
+    width: 200px;
+    margin-top: 10px;
+    color: rgb(81, 81, 81);
+}
+.phone{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+.phone img{
+    height: 30px;
+    width: 30px;
+    border: 2px solid rgb(245,230,200);
+    padding: 10px;
+    border-radius: 70px;
+}
+.number{
+    display: flex;
+    flex-direction: column;
+}
+.number p{
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    margin-left: 40px;
+    margin-top: 4px;
+}
+.tele{
+    display: inline;
+}
+#phone_number{
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: rgb(126, 11, 11);
+    margin-left: 40px;
+    margin-top: 0;
+    font-weight: 500;
+    text-decoration: none;
+}
+#phone_number:hover{
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+    font-size: 15px;
+}
+.address{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.address img{
+    height: 30px;
+    width: 30px;
+    border: 2px solid rgb(245,230,200);
+    padding: 10px;
+    border-radius: 70px;
+}
+.location{
+    display: flex;
+    flex-direction: column;
+}
+.location p{
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    margin-left: 40px;
+    margin-top: 4px;
+}
+#loc{
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: rgb(126, 11, 11);
+    margin-left: 40px;
+    margin-top: 0;
+    font-weight: 500;
+}
+.email{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.email img{
+    height: 30px;
+    width: 30px;
+    border: 2px solid rgb(245,230,200);
+    padding: 10px;
+    border-radius: 70px;
+}
+.myemail{
+    display: flex;
+    flex-direction: column;
+}
+.myemail p{
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    margin-left: 40px;
+    margin-top: 4px;
+}
+.em{
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-left: 40px;
+    margin-top: 0;
+    font-weight: 500;
+}
+.em a{
+    text-decoration: none;
+    color: rgb(126,11,11);
+}
+.em a:hover{
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+    font-size: 15px;
+}
+.socialmedia{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.socialmedia img{
+    height: 25px;
+    width: 25px;
+    background-color:rgb(245,230,200);
+    padding: 5px;
+    border-radius: 10px;
+}
+.socialmedia a{
+    margin-right: 40px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 50px;
+    background-color: rgb(245, 230, 200);
+    width: 380px;
+    height: 500px;
+    border-radius: 30px;
+}
+.info h2{
+    color: black;
+    
+    margin-top: 30px;
+    margin-left: 20px;
+
+}
+.info input{
+    padding: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 30px;
+    background-color: transparent;
+    color: black;
+    font-size: 17px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.info textarea{
+    padding: 10px;
+    font-size: 17px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: none;
+    border-bottom: 3px solid grey;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 30px;
+    resize: none;
+}
+.info button{
+    height: 40px;
+    width: 110px;
+    margin-top: 30px;
+    margin-left: 15px;
+    font-size: 17px;
+    border-radius: 50px;
+    color: black;
+    font-weight: 600;
+    background:linear-gradient(45deg,beige,cadetblue 70%,beige);
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
+.info button:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+#error{
+    margin-top: 20px;
+    padding: 6px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.container2{
+    width: 400px;
+    height: 320px;
+    margin-left: 390px;
+    margin-bottom: 80px;
+    background: rgb(27, 27, 27);
+    padding-top: 13px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border: 1px solid rgb(68, 68, 68);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container2 p{
+    color: beige;
+    font-size: 30px;
+}
+.container2 .star-widget input{
+    display: none;
+}
+.star-widget label{
+    font-size: 40px;
+    color: rgb(68, 68, 68);
+    padding-right:10px;
+    float: right;
+    transition: color 0.2s ease;
+}
+.container2 input:not(:checked) ~ label:hover{
+    color: rgb(255, 221, 68);
+}
+.container2 input:not(:checked) ~ label:hover ~ label{
+    color: rgb(255, 221, 68);
+}
+.container2 input:checked ~ label{
+    color: rgb(255, 221, 68);
+}
+.container2 input#rate-5:checked ~ label{
+    color: rgb(255, 238, 119);
+    text-shadow: 0 0 0 20px rgb(153, 85, 34);
+}
+
+.container2 form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+.container2 form header{
+    width: 100%;
+    font-size: 25px;
+    color: rgb(255, 238, 119);
+    font-weight: 500;
+    margin: 5px 0 20px 0;
+    transition: all 0.2s ease;
+    text-align: center;
+}
+.container2 form textarea{
+    height: 100px;
+    width: 100%;
+    outline: none;
+    border: 1px solid rgb(51, 51, 51);
+    background: rgb(34, 34, 34);
+    font-size: 17px;
+    color: white;
+    resize: none;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.container2 form button{
+    height: 45px;
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 5px;
+    background-color: rgb(34, 34, 34);
+    color: rgb(153, 153, 153);
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border: 1px solid rgb(68, 68, 68);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+.container2 form button:hover{
+    background-color: rgb(27, 27, 27);
+}
+#rating-paragraph{
+    color: rgb(255, 221, 68);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+}
